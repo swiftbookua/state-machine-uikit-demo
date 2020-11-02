@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KbO-Ry-pLH">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17124"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Checkin List Empty View Controller-->
+        <scene sceneID="m3g-Ui-0V7">
+            <objects>
+                <viewController id="KbO-Ry-pLH" customClass="CheckinListEmptyViewController" customModule="StateMachineUIKitDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e4J-lT-rCq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="SiR-v4-wOB">
+                                <rect key="frame" x="109" y="423" width="196.5" height="50.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have no checkins yet." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cxs-e6-gDi">
+                                        <rect key="frame" x="0.0" y="0.0" width="196.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ka1-Ai-4hB">
+                                        <rect key="frame" x="0.0" y="20.5" width="196.5" height="30"/>
+                                        <state key="normal" title="Make your first one"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="PmH-ua-TgM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="PmH-ua-TgM" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="SiR-v4-wOB" secondAttribute="bottom" id="A4g-aj-fbK"/>
+                            <constraint firstItem="SiR-v4-wOB" firstAttribute="centerY" secondItem="e4J-lT-rCq" secondAttribute="centerY" id="AQd-c2-ouM"/>
+                            <constraint firstItem="PmH-ua-TgM" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="SiR-v4-wOB" secondAttribute="trailing" id="B0D-Nt-Xax"/>
+                            <constraint firstItem="SiR-v4-wOB" firstAttribute="centerX" secondItem="e4J-lT-rCq" secondAttribute="centerX" id="BQe-Fo-GlU"/>
+                            <constraint firstItem="SiR-v4-wOB" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="PmH-ua-TgM" secondAttribute="leading" id="IQb-7g-fyA"/>
+                            <constraint firstItem="SiR-v4-wOB" firstAttribute="top" relation="greaterThanOrEqual" secondItem="PmH-ua-TgM" secondAttribute="top" id="muf-2D-4cQ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hv4-C8-08I" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="135"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

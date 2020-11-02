@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ico-r3-r5k">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17124"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Checkin List Loading Error View Controller-->
+        <scene sceneID="IEx-CX-g68">
+            <objects>
+                <viewController id="Ico-r3-r5k" customClass="CheckinListLoadingErrorViewController" customModule="StateMachineUIKitDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1t8-Gv-8aP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="egU-EA-h9G">
+                                <rect key="frame" x="88" y="369.5" width="238.5" height="157.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wok-x0-Lvk">
+                                        <rect key="frame" x="96" y="0.0" width="46" height="26.5"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="diQ-HY-hT9">
+                                        <rect key="frame" x="0.0" y="46.5" width="238.5" height="61"/>
+                                        <string key="text">Could not load checkins: 
+Internet connection appears to be offline.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2a7-aq-lqB">
+                                        <rect key="frame" x="100.5" y="127.5" width="37" height="30"/>
+                                        <state key="normal" title="Retry"/>
+                                        <connections>
+                                            <action selector="retryButtonPressed" destination="Ico-r3-r5k" eventType="touchUpInside" id="ned-bF-dS5"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="300" id="bKp-rr-LHH"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="VJv-Qh-cux"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="egU-EA-h9G" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="VJv-Qh-cux" secondAttribute="leading" id="RJa-LA-4Wd"/>
+                            <constraint firstItem="egU-EA-h9G" firstAttribute="centerY" secondItem="1t8-Gv-8aP" secondAttribute="centerY" id="RPU-ks-GgL"/>
+                            <constraint firstItem="egU-EA-h9G" firstAttribute="centerX" secondItem="1t8-Gv-8aP" secondAttribute="centerX" id="Tkh-Fa-sIG"/>
+                            <constraint firstItem="egU-EA-h9G" firstAttribute="top" relation="greaterThanOrEqual" secondItem="VJv-Qh-cux" secondAttribute="top" id="jme-xj-fbC"/>
+                            <constraint firstItem="VJv-Qh-cux" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="egU-EA-h9G" secondAttribute="trailing" id="vEz-kW-mbu"/>
+                            <constraint firstItem="VJv-Qh-cux" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="egU-EA-h9G" secondAttribute="bottom" id="vSK-SF-Fmm"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="messageLabel" destination="diQ-HY-hT9" id="U4h-5f-Rvo"/>
+                        <outlet property="titleLabel" destination="Wok-x0-Lvk" id="Ulm-np-3KV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="skI-oq-ynD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="200" y="202"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB4AFFCA2515332C0056F119 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4AFFC92515332C0056F119 /* LoginViewController.swift */; };
+		CB4AFFCF251533340056F119 /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4AFFCE251533340056F119 /* LoginViewController.storyboard */; };
+		CB4AFFD4251533D90056F119 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4AFFD3251533D90056F119 /* DIContainer.swift */; };
 		CBF0E8A6250809070095A5D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0E8A5250809070095A5D5 /* AppDelegate.swift */; };
 		CBF0E8A8250809070095A5D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0E8A7250809070095A5D5 /* SceneDelegate.swift */; };
-		CBF0E8AA250809070095A5D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0E8A9250809070095A5D5 /* ViewController.swift */; };
+		CBF0E8AA250809070095A5D5 /* CheckinListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0E8A9250809070095A5D5 /* CheckinListViewController.swift */; };
 		CBF0E8AD250809070095A5D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF0E8AB250809070095A5D5 /* Main.storyboard */; };
 		CBF0E8AF2508090A0095A5D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBF0E8AE2508090A0095A5D5 /* Assets.xcassets */; };
 		CBF0E8B22508090A0095A5D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF0E8B02508090A0095A5D5 /* LaunchScreen.storyboard */; };
 		CBF0E8BD2508090B0095A5D5 /* StateMachineUIKitDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0E8BC2508090B0095A5D5 /* StateMachineUIKitDemoTests.swift */; };
 		CBF0E8C82508090B0095A5D5 /* StateMachineUIKitDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0E8C72508090B0095A5D5 /* StateMachineUIKitDemoUITests.swift */; };
+		CBF0E8D6250809490095A5D5 /* CheckinStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0E8D5250809490095A5D5 /* CheckinStorage.swift */; };
+		CBF0E8D8250809740095A5D5 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0E8D7250809740095A5D5 /* AuthManager.swift */; };
+		CBF0E8DC250809EF0095A5D5 /* CheckinListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0E8DA250809EF0095A5D5 /* CheckinListTableViewCell.swift */; };
+		CBF0E8DD250809EF0095A5D5 /* CheckinListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBF0E8DB250809EF0095A5D5 /* CheckinListTableViewCell.xib */; };
+		CBF0E8E025080A3E0095A5D5 /* CheckinListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0E8DF25080A3E0095A5D5 /* CheckinListTableViewController.swift */; };
+		CBF0E8E22508104D0095A5D5 /* UIViewControllerContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0E8E12508104D0095A5D5 /* UIViewControllerContainerView.swift */; };
+		CBF0E8E6250813C80095A5D5 /* CheckinListEmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0E8E5250813C80095A5D5 /* CheckinListEmptyViewController.swift */; };
+		CBF0E8E8250813E90095A5D5 /* CheckinListEmptyViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF0E8E7250813E90095A5D5 /* CheckinListEmptyViewController.storyboard */; };
+		CBF0E8EB250814B10095A5D5 /* UIViewController+Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0E8EA250814B10095A5D5 /* UIViewController+Storyboard.swift */; };
+		CBF0E8ED250816300095A5D5 /* CheckinLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0E8EC250816300095A5D5 /* CheckinLoadingViewController.swift */; };
+		CBF0E8EF250816370095A5D5 /* CheckinLoadingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF0E8EE250816370095A5D5 /* CheckinLoadingViewController.storyboard */; };
+		CBF0E8F2250816D80095A5D5 /* CheckinListLoadingErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0E8F1250816D80095A5D5 /* CheckinListLoadingErrorViewController.swift */; };
+		CBF0E8F4250816DE0095A5D5 /* CheckinListLoadingErrorViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF0E8F3250816DE0095A5D5 /* CheckinListLoadingErrorViewController.storyboard */; };
+		CBF0E8F7250818CE0095A5D5 /* CheckinListLoginPromptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0E8F6250818CE0095A5D5 /* CheckinListLoginPromptViewController.swift */; };
+		CBF0E8F9250818D50095A5D5 /* CheckinListLoginPromptViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF0E8F8250818D50095A5D5 /* CheckinListLoginPromptViewController.storyboard */; };
+		CBF0E8FC250819B40095A5D5 /* CheckinListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0E8FB250819B40095A5D5 /* CheckinListInteractor.swift */; };
+		CBF0E8FE250819D60095A5D5 /* CheckinListStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0E8FD250819D60095A5D5 /* CheckinListStateMachine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +55,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB4AFFC92515332C0056F119 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CB4AFFCE251533340056F119 /* LoginViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
+		CB4AFFD3251533D90056F119 /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
 		CBF0E8A2250809070095A5D5 /* StateMachineUIKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StateMachineUIKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF0E8A5250809070095A5D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBF0E8A7250809070095A5D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CBF0E8A9250809070095A5D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBF0E8A9250809070095A5D5 /* CheckinListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinListViewController.swift; sourceTree = "<group>"; };
 		CBF0E8AC250809070095A5D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBF0E8AE2508090A0095A5D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBF0E8B12508090A0095A5D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +72,23 @@
 		CBF0E8C32508090B0095A5D5 /* StateMachineUIKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StateMachineUIKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF0E8C72508090B0095A5D5 /* StateMachineUIKitDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateMachineUIKitDemoUITests.swift; sourceTree = "<group>"; };
 		CBF0E8C92508090B0095A5D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBF0E8D5250809490095A5D5 /* CheckinStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckinStorage.swift; sourceTree = "<group>"; };
+		CBF0E8D7250809740095A5D5 /* AuthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		CBF0E8DA250809EF0095A5D5 /* CheckinListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinListTableViewCell.swift; sourceTree = "<group>"; };
+		CBF0E8DB250809EF0095A5D5 /* CheckinListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckinListTableViewCell.xib; sourceTree = "<group>"; };
+		CBF0E8DF25080A3E0095A5D5 /* CheckinListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinListTableViewController.swift; sourceTree = "<group>"; };
+		CBF0E8E12508104D0095A5D5 /* UIViewControllerContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerContainerView.swift; sourceTree = "<group>"; };
+		CBF0E8E5250813C80095A5D5 /* CheckinListEmptyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinListEmptyViewController.swift; sourceTree = "<group>"; };
+		CBF0E8E7250813E90095A5D5 /* CheckinListEmptyViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CheckinListEmptyViewController.storyboard; sourceTree = "<group>"; };
+		CBF0E8EA250814B10095A5D5 /* UIViewController+Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Storyboard.swift"; sourceTree = "<group>"; };
+		CBF0E8EC250816300095A5D5 /* CheckinLoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinLoadingViewController.swift; sourceTree = "<group>"; };
+		CBF0E8EE250816370095A5D5 /* CheckinLoadingViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CheckinLoadingViewController.storyboard; sourceTree = "<group>"; };
+		CBF0E8F1250816D80095A5D5 /* CheckinListLoadingErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinListLoadingErrorViewController.swift; sourceTree = "<group>"; };
+		CBF0E8F3250816DE0095A5D5 /* CheckinListLoadingErrorViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CheckinListLoadingErrorViewController.storyboard; sourceTree = "<group>"; };
+		CBF0E8F6250818CE0095A5D5 /* CheckinListLoginPromptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinListLoginPromptViewController.swift; sourceTree = "<group>"; };
+		CBF0E8F8250818D50095A5D5 /* CheckinListLoginPromptViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CheckinListLoginPromptViewController.storyboard; sourceTree = "<group>"; };
+		CBF0E8FB250819B40095A5D5 /* CheckinListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinListInteractor.swift; sourceTree = "<group>"; };
+		CBF0E8FD250819D60095A5D5 /* CheckinListStateMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinListStateMachine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +116,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB4AFFC8251533160056F119 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CB4AFFC92515332C0056F119 /* LoginViewController.swift */,
+				CB4AFFCE251533340056F119 /* LoginViewController.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		CBF0E899250809070095A5D5 = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +148,13 @@
 		CBF0E8A4250809070095A5D5 /* StateMachineUIKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CBF0E8D9250809810095A5D5 /* Services */,
 				CBF0E8A5250809070095A5D5 /* AppDelegate.swift */,
 				CBF0E8A7250809070095A5D5 /* SceneDelegate.swift */,
-				CBF0E8A9250809070095A5D5 /* ViewController.swift */,
+				CB4AFFC8251533160056F119 /* Login */,
+				CBF0E8DE250809F60095A5D5 /* CheckinList */,
 				CBF0E8AB250809070095A5D5 /* Main.storyboard */,
+				CBF0E8E3250810510095A5D5 /* Utils */,
 				CBF0E8AE2508090A0095A5D5 /* Assets.xcassets */,
 				CBF0E8B02508090A0095A5D5 /* LaunchScreen.storyboard */,
 				CBF0E8B32508090A0095A5D5 /* Info.plist */,
@@ -126,6 +178,86 @@
 				CBF0E8C92508090B0095A5D5 /* Info.plist */,
 			);
 			path = StateMachineUIKitDemoUITests;
+			sourceTree = "<group>";
+		};
+		CBF0E8D9250809810095A5D5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CBF0E8D5250809490095A5D5 /* CheckinStorage.swift */,
+				CBF0E8D7250809740095A5D5 /* AuthManager.swift */,
+				CB4AFFD3251533D90056F119 /* DIContainer.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CBF0E8DE250809F60095A5D5 /* CheckinList */ = {
+			isa = PBXGroup;
+			children = (
+				CBF0E8FB250819B40095A5D5 /* CheckinListInteractor.swift */,
+				CBF0E8FD250819D60095A5D5 /* CheckinListStateMachine.swift */,
+				CBF0E8A9250809070095A5D5 /* CheckinListViewController.swift */,
+				CBF0E8FA250819490095A5D5 /* LoginPrompt */,
+				CBF0E8F5250816E20095A5D5 /* Error */,
+				CBF0E8F02508163A0095A5D5 /* Loading */,
+				CBF0E8E9250813ED0095A5D5 /* Empty */,
+				CBF0E8E4250813850095A5D5 /* List */,
+			);
+			path = CheckinList;
+			sourceTree = "<group>";
+		};
+		CBF0E8E3250810510095A5D5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CBF0E8E12508104D0095A5D5 /* UIViewControllerContainerView.swift */,
+				CBF0E8EA250814B10095A5D5 /* UIViewController+Storyboard.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CBF0E8E4250813850095A5D5 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				CBF0E8DF25080A3E0095A5D5 /* CheckinListTableViewController.swift */,
+				CBF0E8DA250809EF0095A5D5 /* CheckinListTableViewCell.swift */,
+				CBF0E8DB250809EF0095A5D5 /* CheckinListTableViewCell.xib */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		CBF0E8E9250813ED0095A5D5 /* Empty */ = {
+			isa = PBXGroup;
+			children = (
+				CBF0E8E5250813C80095A5D5 /* CheckinListEmptyViewController.swift */,
+				CBF0E8E7250813E90095A5D5 /* CheckinListEmptyViewController.storyboard */,
+			);
+			path = Empty;
+			sourceTree = "<group>";
+		};
+		CBF0E8F02508163A0095A5D5 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				CBF0E8EC250816300095A5D5 /* CheckinLoadingViewController.swift */,
+				CBF0E8EE250816370095A5D5 /* CheckinLoadingViewController.storyboard */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		CBF0E8F5250816E20095A5D5 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				CBF0E8F1250816D80095A5D5 /* CheckinListLoadingErrorViewController.swift */,
+				CBF0E8F3250816DE0095A5D5 /* CheckinListLoadingErrorViewController.storyboard */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		CBF0E8FA250819490095A5D5 /* LoginPrompt */ = {
+			isa = PBXGroup;
+			children = (
+				CBF0E8F6250818CE0095A5D5 /* CheckinListLoginPromptViewController.swift */,
+				CBF0E8F8250818D50095A5D5 /* CheckinListLoginPromptViewController.storyboard */,
+			);
+			path = LoginPrompt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +363,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB4AFFCF251533340056F119 /* LoginViewController.storyboard in Resources */,
+				CBF0E8E8250813E90095A5D5 /* CheckinListEmptyViewController.storyboard in Resources */,
+				CBF0E8F9250818D50095A5D5 /* CheckinListLoginPromptViewController.storyboard in Resources */,
 				CBF0E8B22508090A0095A5D5 /* LaunchScreen.storyboard in Resources */,
+				CBF0E8EF250816370095A5D5 /* CheckinLoadingViewController.storyboard in Resources */,
+				CBF0E8DD250809EF0095A5D5 /* CheckinListTableViewCell.xib in Resources */,
 				CBF0E8AF2508090A0095A5D5 /* Assets.xcassets in Resources */,
 				CBF0E8AD250809070095A5D5 /* Main.storyboard in Resources */,
+				CBF0E8F4250816DE0095A5D5 /* CheckinListLoadingErrorViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +396,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBF0E8AA250809070095A5D5 /* ViewController.swift in Sources */,
+				CBF0E8AA250809070095A5D5 /* CheckinListViewController.swift in Sources */,
+				CBF0E8E22508104D0095A5D5 /* UIViewControllerContainerView.swift in Sources */,
+				CBF0E8D6250809490095A5D5 /* CheckinStorage.swift in Sources */,
+				CBF0E8ED250816300095A5D5 /* CheckinLoadingViewController.swift in Sources */,
+				CBF0E8EB250814B10095A5D5 /* UIViewController+Storyboard.swift in Sources */,
+				CB4AFFD4251533D90056F119 /* DIContainer.swift in Sources */,
+				CBF0E8E025080A3E0095A5D5 /* CheckinListTableViewController.swift in Sources */,
+				CBF0E8FC250819B40095A5D5 /* CheckinListInteractor.swift in Sources */,
+				CBF0E8F2250816D80095A5D5 /* CheckinListLoadingErrorViewController.swift in Sources */,
 				CBF0E8A6250809070095A5D5 /* AppDelegate.swift in Sources */,
+				CBF0E8DC250809EF0095A5D5 /* CheckinListTableViewCell.swift in Sources */,
 				CBF0E8A8250809070095A5D5 /* SceneDelegate.swift in Sources */,
+				CBF0E8D8250809740095A5D5 /* AuthManager.swift in Sources */,
+				CB4AFFCA2515332C0056F119 /* LoginViewController.swift in Sources */,
+				CBF0E8E6250813C80095A5D5 /* CheckinListEmptyViewController.swift in Sources */,
+				CBF0E8F7250818CE0095A5D5 /* CheckinListLoginPromptViewController.swift in Sources */,
+				CBF0E8FE250819D60095A5D5 /* CheckinListStateMachine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
